@@ -15,14 +15,14 @@ body {
     position: relative;
     width: 350px;
     /* height: 190px; */
-    height: 450px;
+    height: 500px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 35px 90px rgba(0, 0, 0, 15);
     transition: 0.5s;
 }
 .card:hover {
-    height: 450px;
+    height: 500px;
 }
 .imgBx {
     position: absolute;
@@ -74,13 +74,46 @@ body {
     font-weight: 500;
     opacity: 0.5;
 }
-.card .content .details .data {
+.card .content .details .sosmed {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
     font-size: 1.5em;
-    top: 30px;
+    
 }
-.card .content .details .data a {
-    color: black;
+.card .content .details .sosmed a {
+    color: linear-gradient(45deg, #fbda61, #ff5acd);
 }
-.card .content .details .data a:hover {
-    color: #7c7474;
+.card .content .details .sosmed a:hover {
+    color: #495ada;
+}
+.card .content .details .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.card .content .details .data h3 {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.card .content .details .data h3 span {
+    font-size: 0.85em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.card .content .details .btnAction .Btn {
+    margin: 20px 0;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #fbda61, #ff5acd);
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.card .content .details .btnAction .Btn:hover {
+    background: linear-gradient(45deg, #ff5acd, #fbda61);
 }
