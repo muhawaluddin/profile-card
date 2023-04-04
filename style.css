@@ -74,3 +74,13 @@ body {
     font-weight: 500;
     opacity: 0.5;
 }
+.card .content .details .data {
+    font-size: 1.5em;
+    top: 30px;
+}
+.card .content .details .data a {
+    color: black;
+}
+.card .content .details .data a:hover {
+    color: #7c7474;
+}
