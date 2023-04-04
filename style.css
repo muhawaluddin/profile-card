@@ -14,15 +14,14 @@ body {
 .card {
     position: relative;
     width: 350px;
-    /* height: 190px; */
-    height: 500px;
+    height: 190px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 35px 90px rgba(0, 0, 0, 15);
     transition: 0.5s;
 }
 .card:hover {
-    height: 500px;
+    height: 450px;
 }
 .imgBx {
     position: absolute;
@@ -56,12 +55,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    overflow: hidden;
 }
 .card .content .details {
     padding: 40px;
     text-align: center;
     width: 100%;
     transition: 0.5s;
+    transform: translateY(170px);
+}
+.card:hover .content .details {
+    transform: translateY(0);
 }
 .card .content .details h2 {
     font-size: 1.25em;
