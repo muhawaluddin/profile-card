@@ -86,7 +86,7 @@ body {
     
 }
 .card .content .details .sosmed a {
-    color: linear-gradient(45deg, #fbda61, #ff5acd);
+    color: #ff5acd;
 }
 .card .content .details .sosmed a:hover {
     color: #495ada;
@@ -119,5 +119,7 @@ body {
     font-weight: 500;
 }
 .card .content .details .btnAction .Btn:hover {
-    background: linear-gradient(45deg, #ff5acd, #fbda61);
+    background: #fff;
+    color: #555;
+    border: 1px solid #807e7e;
 }
